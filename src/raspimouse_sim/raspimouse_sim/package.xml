@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package>
+  <name>raspimouse_sim</name>
+  <version>0.1.0</version>
+  <description>ROS package suite for Raspberry Pi Mouse Simulator</description>
+
+  <maintainer email="shop@rt-net.jp">RT Corporation</maintainer>
+
+  <author email="tiryoh@gmail.com">Daisuke Sato</author>
+  <author email="yukipass19@gmail.com">Yuki Watanabe</author>
+
+  <license>MIT</license>
+
+  <url type="website">https://github.com/rt-net/raspimouse_sim/wiki</url>
+  <url type="repository">https://github.com/rt-net/raspimouse_sim</url>
+  <url type="bugtracker">https://github.com/rt-net/raspimouse_sim/issues</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>raspimouse_description</run_depend>
+  <run_depend>raspimouse_gazebo</run_depend>
+  <run_depend>raspimouse_control</run_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
