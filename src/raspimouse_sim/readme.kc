@@ -1,1 +1,7 @@
 來源：https://github.com/rt-net/raspimouse_sim
+
+launch gazebo 模型檔之前，先執行：
+
+  rosrun raspimouse_control gen_dev_file.sh
+
+以產生 /dev/ 下虛擬裝置檔
