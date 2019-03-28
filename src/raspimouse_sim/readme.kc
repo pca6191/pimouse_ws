@@ -1,7 +1,21 @@
 來源：https://github.com/rt-net/raspimouse_sim
 
-launch gazebo 模型檔之前，先執行：
+A. 第一次使用，先安裝相關相依套件
 
-  rosrun raspimouse_control gen_dev_file.sh
+   $ bash -exv -c "$(curl -sSfL https://git.io/raspimouse-sim-installer)"
 
-以產生 /dev/ 下虛擬裝置檔
+   參考：https://github.com/rt-net/raspimouse_sim/wiki/quickstart
+
+B.launch gazebo 模型檔之前，先執行：
+
+  $ rosrun raspimouse_control gen_dev_file.sh
+
+  以產生 /dev/ 下虛擬裝置檔
+
+C.測試
+  
+  $ rosrun raspimouse_control controller_vel_publisher.py
+
+  可以用 w/s/a/d 控制運動
+
+

@@ -1,0 +1,7 @@
+<launch>
+  <!-- include file="$(find pimouse_ros)/launch/pimouse.launch" / --> 
+
+  <node pkg="pimouse_run_corridor" name="my_wall_stop" type="my_wall_stop.py" required="true" />
+
+  <!-- test test-name="test_wall_stop" pkg="pimouse_run_corridor" type="travis_test_wall_stop.py" / -->
+</launch>
